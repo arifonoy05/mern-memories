@@ -17,3 +17,5 @@ Go to the `/server` directory abd install the dependencies <br>
 Create a .env file and set your port number and MongoDB connection string. Default value is port 5000 as the frontend requests for api on this port.
 Run the backend server <br>
 `npm start`
+
+## [Live link here](http://memories.arifonoy.com/)
