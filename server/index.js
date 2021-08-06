@@ -18,7 +18,7 @@ app.use('/', (req, res) => {
     res.send("Memories API <br /> Add a '/posts' to the URL to get the data")
 });
 
-// const CONNECTION_URL = 'mongodb+srv://arifonoy:arifonoy123@memories.ly7bg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+// const CONNECTION_URL = 'MONGO_URL_STRING';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect( process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
